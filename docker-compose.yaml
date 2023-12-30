@@ -1,0 +1,6 @@
+version: "3"
+services:
+  stampa-data-ora-c-gcc:
+    build:
+      context: .
+      dockerfile: ./build/Build.Dockerfile
